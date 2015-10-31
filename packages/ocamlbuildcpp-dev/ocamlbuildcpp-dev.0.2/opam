@@ -1,0 +1,12 @@
+opam-version: "1.2"
+maintainer: "Joe Dralliam <jdralliam@gmail.com>"
+authors: "Joe Dralliam <jdralliam@gmail.com>"
+homepage: "https://github.com/JoeDralliam/OcamlbuildCpp"
+bug-reports: "https://github.com/JoeDralliam/OcamlbuildCpp/issues"
+dev-repo: "git://github.com/JoeDralliam/OcamlbuildCpp"
+build: [make]
+install: [make "install"]
+remove: [make "uninstall"]
+depends: [
+  "ocamlfind" {build}
+]

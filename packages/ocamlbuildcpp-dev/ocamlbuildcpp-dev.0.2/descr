@@ -1,0 +1,3 @@
+An ocamlbuild plugin to compile C++ 
+
+An ocamlbuild plugin to compile C++. Try to support G++, Clang++ and VC++.
